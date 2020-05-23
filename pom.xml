@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.juanargandona</groupId>
-	<artifactId>springboot-springcloud-client</artifactId>
+	<artifactId>spring-cloud-config-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-springcloud-client</name>
+	<name>spring-cloud-config-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -19,11 +19,7 @@
 		<spring-cloud.version>Hoxton.SR4</spring-cloud.version>
 	</properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+	<dependencies>		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -49,6 +45,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 

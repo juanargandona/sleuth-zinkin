@@ -1,13 +1,13 @@
-package com.juanargandona.springbootspringcloudclient;
+package com.juanargandona.springcloudconfigclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootSpringcloudClientApplication {
+public class SpringCloudConfigClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootSpringcloudClientApplication.class, args);
+		SpringApplication.run(SpringCloudConfigClientApplication.class, args);
 	}
 
 }
